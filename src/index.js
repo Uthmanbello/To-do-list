@@ -1,21 +1,20 @@
-import _ from 'lodash';
 import './style.css';
-  
+
 const taskArr = [{
-    description: "wash the dishes",
-    completed: false,
-    index: 0,
+  description: 'wash the dishes',
+  completed: false,
+  index: 0,
 },
 {
-    description: "take out the trash",
-    completed: false,
-    index: 1,
+  description: 'take out the trash',
+  completed: false,
+  index: 1,
 },
 {
-    description: "complete To Do list project",
-    completed: false,
-    index: 2,
-}
+  description: 'complete To Do list project',
+  completed: false,
+  index: 2,
+},
 ];
 
 const container = document.querySelector('.task-container');
