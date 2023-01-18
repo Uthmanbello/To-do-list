@@ -1,3 +1,56 @@
 body {
-    background-color: yellow;
+    background-color: rgb(240, 240, 240);
+}
+
+.ash {
+    color: rgb(165, 165, 165);
+}
+
+.black {
+    color: rgb(49, 49, 49);
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 5px 8px 5px rgb(206, 206, 206);
+}
+
+.container > * {
+    box-sizing: border-box;
+}
+
+.list-item {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.add {
+    height: 9vh;
+    margin-left: 20px;
+    border: none;
+} 
+::placeholder {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.check {
+    margin-left: 20px;
+}
+
+.task {
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+.fa-ellipsis-vertical {
+    /* margin-left: 70%; */
+    padding-top: 15px;
+    float: right;
+}
+
+.clear {
+    justify-content: center;
+    background-color: rgb(202, 202, 202);
 }
