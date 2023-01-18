@@ -27,7 +27,7 @@ taskArr.forEach((task) => {
         <div class="list-item">
             <input type="checkbox" id="${task.index}" class="check">
             <p class="task black">${task.description}</p>
-            <i class="fa-solid fa-ellipsis-vertical ash fa-2x"></i>
+            <i class="fa-solid fa-ellipsis-vertical ash fa-2x icon"></i>
         </div>`;
 });
 

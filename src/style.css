@@ -36,6 +36,10 @@ body {
     font-size: 1.2em;
 }
 
+.n-icon {
+    margin-top: 8px;
+}
+
 .check {
     margin-left: 20px;
 }
@@ -44,10 +48,10 @@ body {
     font-size: 1.2em;
     padding-left: 20px;
 }
-.fa-ellipsis-vertical {
-    /* margin-left: 70%; */
+.icon {
     padding-top: 15px;
-    float: right;
+    position: absolute;
+    right: 30px;
 }
 
 .clear {
