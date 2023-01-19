@@ -10,6 +10,10 @@ body {
   color: rgb(49, 49, 49);
 }
 
+.d-none {
+    display: none;
+}
+
 .container {
   background-color: rgb(255, 255, 255);
   box-sizing: border-box;
@@ -26,23 +30,32 @@ body {
   border-bottom: 1px solid rgb(165, 165, 165);
 }
 
+button {
+    background: none;
+    border: none;
+}
+
 .add {
   height: 9vh;
   margin-left: 20px;
   border: none;
+  font-size: 1.2em;
+}
+
+.add:focus {
+    outline: none;
 }
 
 ::placeholder {
   font-style: italic;
-  font-size: 1.2em;
-}
-
-.n-icon {
-  margin-top: 8px;
 }
 
 .check {
   margin-left: 20px;
+}
+
+.check:hover {
+  cursor: pointer;
 }
 
 .task {
@@ -51,7 +64,16 @@ body {
 }
 
 .icon {
-  padding-top: 15px;
+  margin-top: -12px;
+  position: absolute;
+  right: 30px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.n-icon {
   position: absolute;
   right: 30px;
 }
@@ -59,4 +81,8 @@ body {
 .clear {
   justify-content: center;
   background-color: rgb(202, 202, 202);
+}
+
+.clear-txt:hover {
+  cursor: pointer;
 }
