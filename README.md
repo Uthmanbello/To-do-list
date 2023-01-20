@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://uthmanbello.github.io/To-do-list/)
+- [Live Demo Link](https://uthmanbello.github.io/To-do-list/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +102,7 @@ npx stylelint "**/*.{css,scss}" --fix
 
 You can deploy this project using:
 
--[Deployment Link](https://uthmanbello.github.io/To-do-list/)
+-[Deployment Link](https://uthmanbello.github.io/To-do-list/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
