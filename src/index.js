@@ -23,6 +23,7 @@ sortedTodoList.forEach((todo) => {
 });
 
 const inputButton = document.getElementById('submit-new-item');
+const enter = document.querySelector('.icon');
 
 const addTask = (e) => {
   e.preventDefault();
@@ -38,6 +39,7 @@ const addTask = (e) => {
 };
 
 inputButton.addEventListener('click', addTask);
+enter.addEventListener('click', addTask);
 
 const editTaskButton = document.querySelectorAll('.task');
 editTaskButton.forEach((elm) => {
