@@ -1,11 +1,6 @@
-export class Todo {
-    constructor(description, index) {
-      this.description = description;
-      this.index = index;
-      this.completed = false;
-    }
-  }
-export class TodoList {
+import Todo from './todoConst.js';
+
+export default class TodoList {
   constructor(todolist) {
     this.todolist = todolist;
   }
