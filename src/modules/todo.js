@@ -1,4 +1,3 @@
-// import Todo from './to.js';
 export class Todo {
     constructor(description, index) {
       this.description = description;
