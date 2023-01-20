@@ -14,20 +14,17 @@ body {
   color: rgb(43, 43, 43);
 }
 
-.selected-list {
+.container {
   box-sizing: border-box;
-  border-radius: 3px;
   box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
-  margin: 0 auto;
-  top: 0;
-  max-width: 500px;
+  margin: 50px auto;
+  max-width: 700px;
   width: 100%;
 }
 
-.stats {
+.input-sec {
   display: flex;
   justify-content: space-between;
-  flex: 1;
   align-items: center;
   padding: 0 0 0 1.2rem;
   height: 50px;

@@ -1,5 +1,5 @@
 import './style.css';
-import TodoList from './modules/todo.js';
+import {TodoList} from './modules/todo.js';
 
 let todolist = [];
 if (JSON.parse(localStorage.getItem('todolist'))) {
