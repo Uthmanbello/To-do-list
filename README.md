@@ -33,7 +33,7 @@
 
 # 📖 [To-do List] <a name="about-project"></a>
 
-**[To-do List]** is a project that displays tasks in form of a to-do list
+**[To-do List]** is a project that displays tasks in form of a to-do list wherein a user can add, remove and edit tasks
 
 ## 🛠 Built With <a name="built-with"></a>
 -HTML
@@ -43,7 +43,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[The project was built using webpack]**
+- **[The project was built using webpack bundling]**
 - **[It was also built using ES6]**
 - **[Modules were imported/exported for the JavaScript]**
 
@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://uthmanbello.github.io/To-do-list/)
+- [Live Demo Link](https://uthmanbello.github.io/To-do-list/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +102,7 @@ npx stylelint "**/*.{css,scss}" --fix
 
 You can deploy this project using:
 
--[Deployment Link](https://uthmanbello.github.io/To-do-list/)
+-[Deployment Link](https://uthmanbello.github.io/To-do-list/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

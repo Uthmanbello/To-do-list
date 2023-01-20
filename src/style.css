@@ -1,62 +1,153 @@
 body {
-  background-color: rgb(240, 240, 240);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: #f1f2f5;
+  text-align: center;
+  font-weight: 300;
+  box-sizing: border-box;
 }
 
 .ash {
-  color: rgb(165, 165, 165);
+  color: rgb(170, 170, 170);
 }
 
 .black {
-  color: rgb(49, 49, 49);
+  color: rgb(43, 43, 43);
+}
+
+.heading {
+  font-size: 1.2em;
 }
 
 .container {
-  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
-  box-shadow: 5px 8px 5px rgb(206, 206, 206);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+  margin: 50px auto;
+  max-width: 700px;
+  width: 100%;
 }
 
-.container > * {
-  box-sizing: border-box;
-}
-
-.list-item {
+.input-sec {
   display: flex;
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(165, 165, 165);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 1.2rem;
+  height: 50px;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.add {
-  height: 9vh;
-  margin-left: 20px;
-  border: none;
+.task-input:focus {
+  outline: none;
 }
 
-::placeholder {
-  font-style: italic;
-  font-size: 1.2em;
-}
-
-.n-icon {
-  margin-top: 8px;
-}
-
-.check {
-  margin-left: 20px;
-}
-
-.task {
-  font-size: 1.2em;
-  padding-left: 20px;
+.rotate-icon {
+  padding-right: 1.2rem;
 }
 
 .icon {
-  padding-top: 15px;
   position: absolute;
-  right: 30px;
+  right: 20px;
+  padding-top: 18px;
 }
 
-.clear {
-  justify-content: center;
-  background-color: rgb(202, 202, 202);
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todolist li {
+  position: relative;
+  background-color: #fff;
+  padding: 0 3em;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-sizing: content-box;
+  height: 50px;
+  display: flex;
+}
+
+#add-item li {
+  padding: 0;
+  background: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+}
+
+#add-item {
+  display: block;
+}
+
+#add-item li input[type=text] {
+  padding: 0 40px 0 1rem;
+  line-height: 50px;
+  height: 50px;
+  border: none;
+  font-style: italic;
+}
+
+#add-item li #submit-new-item {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.items {
+  position: relative;
+  text-align: left;
+}
+
+.check {
+  margin-left: -30px;
+}
+
+.task-desc {
+  padding-left: 15px;
+}
+
+.task-desc:focus {
+  outline: none;
+}
+
+.link-button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin: auto;
+  display: block;
+  place-content: center;
+  height: 40px;
+}
+
+.task {
+  margin-right: auto;
+}
+
+.remove-button {
+  margin-left: auto;
+  margin-right: -2rem;
+  place-self: center;
+}
+
+.task label {
+  width: 95%;
+  align-self: center;
+  text-align: left;
+}
+
+.clear-completed {
+  opacity: 0.5;
 }
