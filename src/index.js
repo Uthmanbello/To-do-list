@@ -1,8 +1,6 @@
 import './style.css';
 import TodoList from './modules/todo.js';
-// import { updateCompleted, clearCompleted } from './modules/list.js';
-// import { updateStatus, clearCompleted } from './modules/list2.js'
-import toggleStatus from './modules/list2.js';
+import toggleStatus from './modules/clear.js';
 
 let todolist = [];
 if (JSON.parse(localStorage.getItem('todolist'))) {
@@ -78,28 +76,6 @@ const removeTask = (e) => {
 };
 
 removeButton.forEach((element) => element.addEventListener('click', removeTask));
-
-const checkboxes = document.querySelectorAll('input[type=checkbox]');
-checkboxes.forEach((checkbox) => {
-  checkbox.addEventListener('change', (event) => {
-    updateCompleted(event.target.dataset.itemId, event.target.checked);
-  });
-});
-
-let clearCompletedButton = document.querySelector('#completed-btn');
-clearCompletedButton.addEventListener('click', clearCompleted);
-
-
-
-  document.querySelectorAll('.checkbox').forEach(checkbox => {
-    checkbox.addEventListener('change', (event) => {
-        updateStatus(todolist, event.target.dataset.id, event.target.checked);
-    });
-});
-
-document.querySelector('.completed-btn').addEventListener('click', (event) => {
-    todolist = clearCompleted(todolist);
-});
 
 const checkBox = (e) => {
   const i = e.target.name;
