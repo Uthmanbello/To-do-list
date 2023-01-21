@@ -31,4 +31,8 @@ export default class TodoList {
     });
     this.todolist = updatedTodoList;
   }
+
+  getTaskByIndex(index) {
+    return this.todolist.filter((obj) => parseInt(obj.index, 10) === parseInt(index, 10))[0];
+  }
 }

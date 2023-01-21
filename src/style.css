@@ -148,6 +148,15 @@ ol {
   text-align: left;
 }
 
+.fa-trash:hover {
+  cursor: pointer;
+}
+
 .clear-completed {
-  opacity: 0.5;
+  color: rgb(116, 116, 116);
+}
+
+.clear-completed:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
