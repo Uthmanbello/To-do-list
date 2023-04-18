@@ -104,7 +104,7 @@ You can deploy this project using:
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Author**
+👤 **Uthman Igein Bello-Imoukhuede**
 
 - GitHub: [@Uthmanbello](https://github.com/Uthmanbello)
 - Twitter: [@UthmanDeRoyale](https://twitter.com/UthmanDeRoyale)
